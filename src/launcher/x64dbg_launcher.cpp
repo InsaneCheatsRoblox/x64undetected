@@ -481,10 +481,10 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
     if(!GetPrivateProfileString(TEXT("Launcher"), TEXT("x64dbg"), TEXT(""), szTempPath, MAX_PATH, szIniPath))
     {
         _tcscpy_s(sz64Path, szCurrentDir);
-        PathAppend(sz64Path, TEXT("x64\\x64dbg.exe"));
+        PathAppend(sz64Path, TEXT("x64\\x64undetected.exe"));
         if(FileExists(sz64Path))
         {
-            WritePrivateProfileString(TEXT("Launcher"), TEXT("x64dbg"), TEXT("x64\\x64dbg.exe"), szIniPath);
+            WritePrivateProfileString(TEXT("Launcher"), TEXT("x64dbg"), TEXT("x64\\x64undetected.exe"), szIniPath);
             bDoneSomething = true;
         }
     }
@@ -561,7 +561,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
             WritePrivateProfileString(TEXT("Launcher"), TEXT("x32dbg"), sz32Path, szIniPath);
             bDoneSomething = true;
         }
-        if(isWoW64() && !FileExists(sz64Path) && BrowseFileOpen(nullptr, TEXT("x64dbg.exe\0x64dbg.exe\0*.exe\0*.exe\0\0"), nullptr, sz64Path, MAX_PATH, szCurrentDir))
+        if(isWoW64() && !FileExists(sz64Path) && BrowseFileOpen(nullptr, TEXT("x64undetected.exe\0x64undetected.exe\0*.exe\0*.exe\0\0"), nullptr, sz64Path, MAX_PATH, szCurrentDir))
         {
             WritePrivateProfileString(TEXT("Launcher"), TEXT("x64dbg"), sz64Path, szIniPath);
             bDoneSomething = true;
@@ -575,7 +575,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
             WritePrivateProfileString(TEXT("Launcher"), TEXT("x32dbg"), sz32Path, szIniPath);
             bDoneSomething = true;
         }
-        if(isWoW64() && !FileExists(sz64Path) && BrowseFileOpen(nullptr, TEXT("x64dbg.exe\0x64dbg.exe\0*.exe\0*.exe\0\0"), nullptr, sz64Path, MAX_PATH, szCurrentDir))
+        if(isWoW64() && !FileExists(sz64Path) && BrowseFileOpen(nullptr, TEXT("x64undetected.exe\0x64undetected.exe\0*.exe\0*.exe\0\0"), nullptr, sz64Path, MAX_PATH, szCurrentDir))
         {
             WritePrivateProfileString(TEXT("Launcher"), TEXT("x64dbg"), sz64Path, szIniPath);
             bDoneSomething = true;

@@ -23,7 +23,7 @@ static bool bDisableGUIUpdate;
         return;
 
 #ifdef _WIN64
-#define dbg_lib L"x64dbg.dll"
+#define dbg_lib L"x64undetected.dll"
 #define gui_lib L"x64gui.dll"
 #else
 #define dbg_lib L"x32dbg.dll"

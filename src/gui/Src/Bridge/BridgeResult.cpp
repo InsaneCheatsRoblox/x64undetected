@@ -28,7 +28,7 @@ dsint BridgeResult::Wait()
 #endif //DEBUG
     Bridge* bridge = Bridge::getBridge();
     HANDLE hResultEvent = bridge->mResultEvents[mType];
-    //Don't freeze when waiting on the main thread (https://github.com/x64dbg/x64dbg/issues/1716)
+    //Don't freeze when waiting on the main thread (https://github.com/InsaneCheatsRoblox/x64undetected/issues/1716)
     if(GetCurrentThreadId() == bridge->mMainThreadId)
         while(WaitForSingleObject(hResultEvent, 10) == WAIT_TIMEOUT)
             QCoreApplication::processEvents();

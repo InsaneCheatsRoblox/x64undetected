@@ -6,7 +6,7 @@ Welcome to x64dbg! This document is relevant for you if you want to contribute t
 
 This is a list of things you can do to help us out (in no particular order). Each item will be expanded upon later in the document.
 
-- [Compile x64dbg](https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) and add new features ([good first issues](https://easy.x64dbg.com) are a good place to start).
+- [Compile x64dbg](https://github.com/InsaneCheatsRoblox/x64undetected/wiki/Compiling-the-whole-project) and add new features ([good first issues](https://easy.x64dbg.com) are a good place to start).
 - [Report bugs](https://report.x64dbg.com) at the issue tracker.
 - Add feature requests to the [issue tracker](https://issues.x64dbg.com).
 - [Write a blogpost](https://x64dbg.com/blog/2016/07/09/Looking-for-writers.html) for the [official blog](https://blog.x64dbg.com).
@@ -17,7 +17,7 @@ This is a list of things you can do to help us out (in no particular order). Eac
 
 ### Compile x64dbg
 
-There is a guide to [compiling the whole project](https://github.com/x64dbg/x64dbg/wiki/Compiling-the-whole-project) available. This might seem difficult at first, but if you install the correct versions of the *Prerequisites* it will be a breeze.
+There is a guide to [compiling the whole project](https://github.com/InsaneCheatsRoblox/x64undetected/wiki/Compiling-the-whole-project) available. This might seem difficult at first, but if you install the correct versions of the *Prerequisites* it will be a breeze.
 
 Compiling x64dbg is very useful to us (even if you don't add any code). Your experience can improve this guide and help new contributors.
 
@@ -43,7 +43,7 @@ Here is a little guide on how to do a clean pull request for people who don't ye
 4. Make all the changes you want and when finishing it, use `git add myfiles` to add it to the repo.
 5. Commit your change. `git commit -m 'a message about what you changed'`. The change are applied to your local git repo.
 6. Push it to your `origin`. The `origin` is your repo which is hosted on github. `git push --set-upstream origin your-branch-name`.
-7. Sync with the `upstream` repo, the real x64dbg repo. `git remote add upstream https://github.com/x64dbg/x64dbg.git`, using `git remote -v` will show which origin/upstream are setup in the local repo.
+7. Sync with the `upstream` repo, the real x64dbg repo. `git remote add upstream https://github.com/InsaneCheatsRoblox/x64undetected.git`, using `git remote -v` will show which origin/upstream are setup in the local repo.
 8. Sync your fork with the `upstream`, `git fetch upstream`. Now checkout your local `development` branch again `git checkout development` and merge the upstream `git merge upstream/development`.
 9. Time to create the pull request! Using the github ui, go to your account/repo, select the branch you already pushed, and click `Pull request`. Review your pull request and send it.
 
@@ -57,7 +57,7 @@ If you want to have the highest chance of getting your problem solved, you are g
 2. Give concrete steps on how to reproduce your bug.
 3. Tell us exactly which version of x64dbg you used and the environment(s) you reproduced the bug in.
 
-You can take a look at the [issue template](https://github.com/x64dbg/x64dbg/blob/development/.github/ISSUE_TEMPLATE.md) for more details.
+You can take a look at the [issue template](https://github.com/InsaneCheatsRoblox/x64undetected/blob/development/.github/ISSUE_TEMPLATE.md) for more details.
 
 ### Request features
 
@@ -81,6 +81,6 @@ To help translate x64dbg, just head over to https://translate.x64dbg.com, click 
 
 If you see any room for improvement in the [documentation](https://help.x64dbg.com), just send a pull request or contact us to discuss your changes.
 
-### Triage Issues [![Open Source Helpers](https://www.codetriage.com/x64dbg/x64dbg/badges/users.svg)](https://www.codetriage.com/x64dbg/x64dbg)
+### Triage Issues [![Open Source Helpers(real)](https://www.codetriage.com/x64dbg/x64dbg/badges/users.svg)](https://www.codetriage.com/x64dbg/x64dbg)
 
-You can triage issues which may include reproducing bug reports or asking for vital information, such as version numbers or reproduction instructions. If you would like to start triaging issues, one easy way to get started is to [subscribe to x64dbg on CodeTriage](https://www.codetriage.com/x64dbg/x64dbg).
+You can triage issues which may include reproducing bug reports or asking for vital information, such as version numbers or reproduction instructions. If you would like to start triaging issues, one easy way to get started is to [subscribe to x64dbg on CodeTriage(real)](https://www.codetriage.com/x64dbg/x64dbg).

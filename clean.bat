@@ -62,8 +62,8 @@ del /Q bin\x64\*.exp
 del /Q bin\x64\*.a
 del /Q bin\x64\*.lib
 del /Q bin\x64\*.def
-del /Q bin\x64\x64dbg.exe
-del /Q bin\x64\x64dbg.dll
+del /Q bin\x64\x64undetected.exe
+del /Q bin\x64\x64undetected.dll
 del /Q bin\x64\x64gui.dll
 del /Q bin\x64\x64bridge.dll
 

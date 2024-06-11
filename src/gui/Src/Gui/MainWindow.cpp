@@ -682,7 +682,7 @@ void MainWindow::loadSelectedTheme(bool reloadOnlyStyleCss)
         Config()->Colors = Config()->defaultColors;
         Config()->writeColors();
         BridgeSettingSetUint("Colors", "DarkTitleBar", 0);
-        // Reset [Fonts] to default (TODO: https://github.com/x64dbg/x64dbg/issues/2422)
+        // Reset [Fonts] to default (TODO: https://github.com/InsaneCheatsRoblox/x64undetected/issues/2422)
         //Config()->Fonts = Config()->defaultFonts;
         //Config()->writeFonts();
         // Remove custom colors

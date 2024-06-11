@@ -7,7 +7,7 @@ labels:
 body:
 - type: markdown
   attributes:
-    value: Before filing this bug, [please check if it hasn't already been reported](https://github.com/x64dbg/x64dbg/issues?q=is%3Aissue+label%3Abug). If it has, please add useful information to the existing issue instead.
+    value: Before filing this bug, [please check if it hasn't already been reported](https://github.com/InsaneCheatsRoblox/x64undetected/issues?q=is%3Aissue+label%3Abug). If it has, please add useful information to the existing issue instead.
 
 - type: input
   attributes:

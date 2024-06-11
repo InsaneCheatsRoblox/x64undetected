@@ -354,13 +354,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(ProjectDir)..\..\bin\x64\</OutDir>
-    <TargetName>x64dbg</TargetName>
+    <TargetName>x64undetected</TargetName>
     <IncludePath>$(ProjectDir)..\zydis_wrapper;$(ProjectDir)..\zydis_wrapper\zydis\include;$(ProjectDir);$(ProjectDir)analysis;$(ProjectDir)commands;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(ProjectDir)..\..\bin\x64d\</OutDir>
-    <TargetName>x64dbg</TargetName>
+    <TargetName>x64undetected</TargetName>
     <IncludePath>$(ProjectDir)..\zydis_wrapper;$(ProjectDir)..\zydis_wrapper\zydis\include;$(ProjectDir);$(ProjectDir)analysis;$(ProjectDir)commands;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

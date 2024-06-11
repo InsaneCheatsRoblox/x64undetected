@@ -44,7 +44,7 @@ del x64bridge.def
 del x64bridge.a
 copy bin\x64\x64bridge.lib %RELEASEDIR%\pluginsdk\x64bridge.lib
 
-genlib bin\x64\x64dbg.dll
+genlib bin\x64\x64undetected.dll
 copy x64dbg.a %RELEASEDIR%\pluginsdk\libx64dbg.a
 del x64dbg.def
 del x64dbg.a
@@ -76,9 +76,9 @@ copy bin\x32\x32dbg.exe %RELEASEDIR%\release\x32\x32dbg-unsigned.exe
 copy bin\x32\x32gui.dll %RELEASEDIR%\release\x32\
 copy bin\x32\loaddll.exe %RELEASEDIR%\release\x32\
 copy bin\x64\x64bridge.dll %RELEASEDIR%\release\x64\
-copy bin\x64\x64dbg.dll %RELEASEDIR%\release\x64\
-copy bin\x64\x64dbg.exe %RELEASEDIR%\release\x64\
-copy bin\x64\x64dbg.exe %RELEASEDIR%\release\x64\x64dbg-unsigned.exe
+copy bin\x64\x64undetected.dll %RELEASEDIR%\release\x64\
+copy bin\x64\x64undetected.exe %RELEASEDIR%\release\x64\
+copy bin\x64\x64undetected.exe %RELEASEDIR%\release\x64\x64undetected-unsigned.exe
 copy bin\x64\x64gui.dll %RELEASEDIR%\release\x64\
 copy bin\x64\loaddll.exe %RELEASEDIR%\release\x64\
 

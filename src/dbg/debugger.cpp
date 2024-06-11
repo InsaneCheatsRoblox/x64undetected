@@ -2791,7 +2791,7 @@ static void debugLoopFunction(INIT_STRUCT* init)
             else if(isElevated)
             {
                 //This is most likely an application with uiAccess="true"
-                //https://github.com/x64dbg/x64dbg/issues/1501
+                //https://github.com/InsaneCheatsRoblox/x64undetected/issues/1501
                 //https://blogs.techsmith.com/inside-techsmith/devcorner-debug-uiaccess
                 error += ", uiAccess=\"true\"";
             }
@@ -2899,7 +2899,7 @@ static void debugLoopFunction(INIT_STRUCT* init)
         DebugLoop();
     }
 
-    //fixes data loss when attach failed (https://github.com/x64dbg/x64dbg/issues/1899)
+    //fixes data loss when attach failed (https://github.com/InsaneCheatsRoblox/x64undetected/issues/1899)
     DbClose();
 
     //call plugin callback
